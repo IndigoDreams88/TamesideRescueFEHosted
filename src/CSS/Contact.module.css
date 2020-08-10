@@ -1,0 +1,51 @@
+.directionsHeader {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.subheader {
+  margin: 10px;
+}
+
+.directions {
+  margin: 20px;
+}
+
+.contactsHeader {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.details {
+  margin: 10px;
+}
+
+.roadMap {
+  margin: 40px;
+  width: 500px;
+  height: 350px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .roadMap {
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .directions {
+    margin: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .directions {
+    margin: 20px;
+  }
+
+  .roadMap {
+    margin: 20px;
+    width: 280px;
+    height: 430px;
+  }
+}

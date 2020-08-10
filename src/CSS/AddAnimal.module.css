@@ -1,0 +1,17 @@
+.inputBox {
+  margin: 5px;
+}
+
+.adoptionButton {
+  margin-bottom: 60px;
+}
+
+#capture {
+  display: none;
+}
+
+#snapshot {
+  display: inline-block;
+  width: 320px;
+  height: 240px;
+}

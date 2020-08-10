@@ -1,0 +1,38 @@
+.title {
+  font-family: "Patrick Hand", cursive;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.infoText {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.individualAnimal {
+  text-decoration: none;
+  color: #000000;
+}
+
+.individualAnimal:hover {
+  color: #98c01f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.animalName {
+  font-family: "Patrick Hand", cursive;
+  font-size: 30px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.animalImage {
+  margin: 20px;
+  height: 180px;
+  width: 240px;
+}

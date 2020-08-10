@@ -1,0 +1,40 @@
+.title {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+}
+
+.GPGroomingImg {
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.rabbitGroomingImg {
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.list1 {
+  margin: 40px;
+}
+
+.list2 {
+  margin: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .rabbitGroomingImg {
+    margin: 0px;
+    height: 250px;
+    width: 250px;
+  }
+
+  .GPGroomingImg {
+    margin: 0px;
+    height: 250px;
+    width: 250px;
+  }
+}

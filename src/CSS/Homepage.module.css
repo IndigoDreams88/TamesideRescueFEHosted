@@ -1,0 +1,79 @@
+.guineaPigs {
+  margin-top: 80px;
+  height: 160px;
+  width: 160px;
+}
+
+.rabbits {
+  margin-top: 80px;
+  height: 160px;
+  width: 160px;
+}
+
+.guineaPig {
+  margin-top: 80px;
+  height: 160px;
+  width: 160px;
+}
+
+.welcomeText {
+  font-size: 15px;
+  margin: 40px;
+}
+
+.adoptTxt {
+  display: block;
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .guineaPigs {
+    display: none;
+  }
+
+  .rabbits {
+    display: none;
+  }
+
+  .guineaPig {
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .guineaPigs {
+    display: none;
+  }
+
+  .rabbits {
+    display: none;
+  }
+
+  .guineaPig {
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .guineaPigs {
+    display: none;
+  }
+
+  .rabbits {
+    display: none;
+  }
+
+  .guineaPig {
+    margin-top: 40px;
+    height: 240px;
+    width: 240px;
+    border-radius: 240px;
+  }
+}

@@ -1,0 +1,56 @@
+.animalImage {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+.button {
+  height: 60px;
+  width: 150px;
+}
+
+.inputBox {
+  margin-left: 5px;
+}
+
+.searchButton {
+  margin-left: 5px;
+}
+
+.deleteButton {
+  height: 60px;
+  width: 150px;
+  margin: 5px;
+}
+
+.editButton {
+  height: 60px;
+  width: 150px;
+  margin: 5px;
+}
+
+.displayMessage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  margin: 20px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: dotted;
+  background-color: yellow;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .animalImage {
+    height: 160px;
+    width: 160px;
+  }
+
+  .inputBox {
+    width: 65%;
+  }
+}

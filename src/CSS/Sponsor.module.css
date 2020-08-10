@@ -1,0 +1,35 @@
+.title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.residentImage {
+  height: 180px;
+  width: 240px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.infoText {
+  margin: 40px;
+}
+
+.residentName {
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+  margin: 20px;
+}
+
+.individualAnimal {
+  text-decoration: none;
+  color: #000000;
+}
+
+.individualAnimal:hover {
+  color: #98c01f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}

@@ -1,0 +1,38 @@
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 300px;
+}
+
+.left {
+  margin-top: 40px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.right {
+  margin-top: 40px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 300px;
+    margin: 10px;
+  }
+
+  .left {
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .right {
+    margin-top: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
